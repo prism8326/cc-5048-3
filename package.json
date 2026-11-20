@@ -1,0 +1,24 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/run-cpu.js",
+    "test:gpu": "node test/run-gpu.js parallel-erp && node test/run-gpu.js ods"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prism8326/cc-5048-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prism8326/cc-5048-3/issues"
+  },
+  "homepage": "https://github.com/prism8326/cc-5048-3#readme",
+  "devDependencies": {
+    "puppeteer": "^25.18.1"
+  }
+}
