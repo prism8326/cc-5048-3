@@ -23,3 +23,8 @@ __pycache__/
 *.log
 .env
 .env.*
+
+# generated sample pipeline artefacts (reproducible via scripts/generate-samples.js + test/run-pipeline.js)
+samples/incoming/
+samples/packages/
+samples/confirmed-manifest.json

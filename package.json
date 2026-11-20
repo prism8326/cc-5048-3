@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node test/run-cpu.js",
-    "test:gpu": "node test/run-gpu.js parallel-erp && node test/run-gpu.js ods"
+    "test": "node test/run-cpu.js && node test/run-pipeline.js",
+    "test:gpu": "node test/run-gpu.js parallel-erp && node test/run-gpu.js ods",
+    "samples:generate": "node scripts/generate-samples.js"
   },
   "repository": {
     "type": "git",

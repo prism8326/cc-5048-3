@@ -1,0 +1,34 @@
+{
+  "id": "harbor",
+  "faceW": 256,
+  "fps": 10,
+  "frames": 16,
+  "ipd": 0.12,
+  "layout": "sbs",
+  "eyeOrder": "LR",
+  "background": {
+    "top": [14, 30, 44],
+    "bottom": [5, 9, 20],
+    "graticule": [90, 150, 220],
+    "graticuleBold": [180, 220, 255],
+    "seamA": [255, 0, 200],
+    "seamB": [0, 220, 255],
+    "poleN": [235, 70, 70],
+    "poleS": [70, 120, 235]
+  },
+  "meridianMarker": {
+    "baseLonDeg": -60,
+    "degPerSec": 24,
+    "halfWidthDeg": 2.5,
+    "colorA": [250, 225, 70],
+    "colorB": [28, 24, 10]
+  },
+  "spheres": [
+    { "name": "near-key", "c": [-0.4, 0.1, 0.95], "r": 0.2, "color": [240, 150, 40], "flat": true, "claim": true },
+    { "name": "far-deco", "c": [1.8, -0.3, -3.5], "r": 0.45, "color": [170, 130, 240], "flat": false }
+  ],
+  "monoMarkers": {
+    "L": { "lonDeg": 175, "latDeg": 12, "radiusDeg": 5, "color": [0, 255, 140] },
+    "R": { "lonDeg": -175, "latDeg": -12, "radiusDeg": 5, "color": [190, 60, 255] }
+  }
+}
